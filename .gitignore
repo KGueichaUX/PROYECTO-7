@@ -1,0 +1,21 @@
+# Sistema
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Dependencias
+node_modules/
+
+# Build y reportes
+dist/
+coverage/
+cypress/videos/
+cypress/screenshots/
+
+# Entorno y logs
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+.idea/
+.vscode/
