@@ -1,0 +1,37 @@
+{
+  "name": "tecnomarket-product-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TecnoMarket - Catálogo interactivo de productos de tecnología (Vue 3 + Vuex + Vuetify)",
+  "scripts": {
+    "serve": "concurrently -k -n API,APP \"npm:api\" \"npm:serve:app\"",
+    "serve:app": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "api": "json-server --watch db.json --port 3001",
+    "test:unit": "jest",
+    "test:unit:coverage": "jest --coverage",
+    "test:e2e": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "axios": "^1.6.8",
+    "core-js": "^3.37.0",
+    "vue": "^3.4.21",
+    "vuetify": "^3.5.16",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-unit-jest": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/test-utils": "^2.4.5",
+    "@vue/vue3-jest": "^27.0.0",
+    "babel-jest": "^27.5.1",
+    "concurrently": "^8.2.2",
+    "cypress": "^13.7.3",
+    "json-server": "0.17.4"
+  }
+}
