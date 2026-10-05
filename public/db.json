@@ -1,0 +1,114 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Laptop UltraBook 14",
+      "categoria": "Laptops",
+      "marca": "NovaTech",
+      "precio": 899990,
+      "descripcion": "Ultraportátil de 14\" con procesador de 12 núcleos, 16 GB de RAM y SSD de 512 GB.",
+      "icono": "mdi-laptop",
+      "stock": 12,
+      "imagen": "/img/laptop-ultrabook.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Laptop Pro Creator 16",
+      "categoria": "Laptops",
+      "marca": "Zentra",
+      "precio": 1499990,
+      "descripcion": "Pantalla 4K de 16\", tarjeta gráfica dedicada y 32 GB de RAM para diseño y edición.",
+      "icono": "mdi-laptop",
+      "stock": 5,
+      "imagen": "/img/laptop-pro-creator.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Smartphone Aura X Pro",
+      "categoria": "Smartphones",
+      "marca": "Lumia Labs",
+      "precio": 649990,
+      "descripcion": "Pantalla AMOLED de 6,7\", cámara de 108 MP y batería de dos días.",
+      "icono": "mdi-cellphone",
+      "stock": 20,
+      "imagen": "/img/smartphone-aura-x.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Smartphone Pulse Lite",
+      "categoria": "Smartphones",
+      "marca": "NovaTech",
+      "precio": 299990,
+      "descripcion": "Equipo de gama media con 128 GB y carga rápida de 45 W.",
+      "icono": "mdi-cellphone",
+      "stock": 35,
+      "imagen": "/img/smartphone-pulse-lite.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Audífonos Silence ANC",
+      "categoria": "Audio",
+      "marca": "Sonara",
+      "precio": 189990,
+      "descripcion": "Audífonos inalámbricos con cancelación activa de ruido y 40 horas de batería.",
+      "icono": "mdi-headphones",
+      "stock": 18,
+      "imagen": "/img/audifonos-silence-anc.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Parlante Bocinex Go",
+      "categoria": "Audio",
+      "marca": "Sonara",
+      "precio": 79990,
+      "descripcion": "Parlante Bluetooth resistente al agua con 12 horas de autonomía.",
+      "icono": "mdi-speaker",
+      "stock": 40,
+      "imagen": "/img/parlante-bocinex-go.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Mouse Ergo Wireless",
+      "categoria": "Accesorios",
+      "marca": "Zentra",
+      "precio": 34990,
+      "descripcion": "Mouse ergonómico inalámbrico con sensor de 4000 DPI y conexión dual.",
+      "icono": "mdi-mouse",
+      "stock": 60,
+      "imagen": "/img/mouse-ergo-wireless.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Cargador GaN 65W Negro",
+      "categoria": "Accesorios",
+      "marca": "Voltix",
+      "precio": 29990,
+      "descripcion": "Cargador compacto de 65 W con dos puertos USB-C para laptop y teléfono.",
+      "icono": "mdi-power-plug",
+      "stock": 0,
+      "imagen": "/img/cargador-gan-65w.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Teclado Mecánico Forge",
+      "categoria": "Gaming",
+      "marca": "Forge",
+      "precio": 99990,
+      "descripcion": "Teclado mecánico con interruptores rojos, iluminación RGB y formato 75%.",
+      "icono": "mdi-keyboard",
+      "stock": 25,
+      "imagen": "/img/teclado-mecanico-forge.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Consola Portátil Arcadia",
+      "categoria": "Gaming",
+      "marca": "Arcadia",
+      "precio": 449990,
+      "descripcion": "Consola portátil de 7\" con 256 GB y compatibilidad con miles de juegos.",
+      "icono": "mdi-controller",
+      "stock": 8,
+      "imagen": "/img/consola-portatil-arcadia.jpg"
+    }
+  ]
+}
